@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Will You Be My Valentine?</title>
+<style>
+body{text-align:center;margin-top:100px;font-family:Arial;background:#fff0f3;}
+#yes{padding:20px 50px;font-size:26px;background:#ff4d6d;color:white;border:none;border-radius:30px;}
+#no{padding:3px 8px;font-size:10px;position:absolute;background:gray;color:white;border:none;border-radius:10px;}
+</style>
+</head>
+<body>
+<h1>Oyinkansola, will you be my Valentine? 💖</h1>
+<button id="yes" onclick="location.href='yes.html'">YES 😍</button>
+<button id="no">No</button>
+<script>
+const noBtn=document.getElementById("no");
+noBtn.addEventListener("mouseover",()=>{
+noBtn.style.left=Math.random()*90+"%";
+noBtn.style.top=Math.random()*90+"%";
+});
+</script>
+</body>
+</html>

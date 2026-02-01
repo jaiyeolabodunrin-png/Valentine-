@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For Oyinkansola ❤️</title>
+<style>
+body {
+display:flex;justify-content:center;align-items:center;height:100vh;
+font-family:Arial;background:linear-gradient(135deg,#ff4d6d,#ffb3c1);
+color:white;text-align:center;overflow:hidden;
+}
+a {padding:20px 40px;background:white;color:#ff4d6d;border-radius:30px;
+text-decoration:none;font-size:24px;font-weight:bold;}
+.heart {position:absolute;font-size:24px;animation:float 6s infinite;}
+@keyframes float {0%{transform:translateY(0);}100%{transform:translateY(-800px);}}
+</style>
+</head>
+<body>
+<audio autoplay loop>
+<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+<div>
+<h1>Hello My Love ❤️</h1>
+<p>I made something special for you...</p>
+<a href="question.html">Click here</a>
+</div>
+<script>
+for(let i=0;i<25;i++){
+let h=document.createElement("div");
+h.className="heart";h.innerHTML="💖";
+h.style.left=Math.random()*100+"%";
+h.style.top="100%";
+h.style.animationDelay=Math.random()*5+"s";
+document.body.appendChild(h);
+}
+</script>
+</body>
+</html>

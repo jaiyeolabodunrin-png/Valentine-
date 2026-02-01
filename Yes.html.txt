@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>She Said Yes!</title>
+<style>
+body{display:flex;justify-content:center;align-items:center;height:100vh;
+font-family:Arial;background:linear-gradient(135deg,#ff4d6d,#ffb3c1);
+color:white;text-align:center;}
+</style>
+</head>
+<body>
+<div>
+<h1>YAY!!! 💕🥰</h1>
+<h2>You just made me the happiest person alive.</h2>
+<p>Happy Valentine's Day, my love.</p>
+</div>
+</body>
+</html>
